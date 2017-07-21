@@ -8,8 +8,11 @@ ul {
 }
 
 header {
-  padding: 20px;
+  padding: 20px 0;
   background-color: #FFFFFF;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
 nav {
@@ -34,11 +37,15 @@ a:link {
   color: #2B2F26;
 }
 
+a:visited{
+  color: #2B2F26;
+}
+
 a:hover {
   color: #CD5D67;
 }
 
-a:active {
+#active{
   color: #968772;
 }
 
@@ -56,58 +63,73 @@ main {
 .image_tiles ul {
   display: flex;
   flex-wrap: wrap;
-align-content: stretch;
-  height: 600px;
+  justify-content: space-around;
 }
 
 .image_tiles ul li {
   color: #F2F1E8;
+  position: relative;
+  margin: 5px 10px;
 }
 
 .image_tiles ul li p {
   background-color: #2B2F26;
+  position: absolute;
+  padding: 5px;
+  font-size: 20px;
+bottom: 20px;
+left: 20px;
 }
-
+.blank{
+  width: 10px;
+}
 #endless_possiblities {
   background-image: url("images/product-1.jpg");
   background-size: cover;
-  width: 60%;
+height: 350px;
+flex-grow: 3;
 }
 
 #sets {
   background-image: url("images/product-2.jpg");
   background-size: cover;
-  width: 20%;
+height: 350px;
+flex-grow: 1;
 }
 
 #textures {
   background-image: url("images/product-3.jpg");
   background-size: cover;
-  width: 20%;
+height: 350px;
+flex-grow: 1;
 }
 
 #tea_time {
   background-image: url("images/product-4.jpg");
   background-size: cover;
-  width: 20%;
+height: 250px;
+flex-grow: 1;
 }
 
 #jars_and_containers {
   background-image: url("images/product-5.jpg");
   background-size: cover;
-  width: 20%;
+height: 250px;
+flex-grow: 1;
 }
 
 #wasabi_and_saki {
   background-image: url("images/product-6.jpg");
   background-size: cover;
-  width: 40%;
+height: 250px;
+flex-grow: 2;
 }
 
 #sippin_on_sunshine {
   background-image: url("images/product-7.jpg");
   background-size: cover;
-  width: 20%;
+height: 250px;
+flex-grow: 1;
 }
 
 footer {
