@@ -41,37 +41,58 @@ main{
   flex-direction: column;
 align-items: center;
 }
+.image_tiles{
+  width: 100%;
+}
 .image_tiles ul{
   display: flex;
-  flex-flow: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 5px;
+  height: 300px;
+}
+.image_tiles ul li{
+  margin: 5px;
+  color: #968772;
+}
+.image_tiles ul li p{
+  background-color: #2B2F26;
 }
 #endless_possiblities{
   background-image: url("images/product-1.jpg");
   background-size: cover;
+  flex-grow: 3;
 }
+
 #sets{
     background-image: url("images/product-2.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 #textures{
       background-image: url("images/product-3.jpg");
       background-size: cover;
+      flex-grow: 1;
 }
 #tea_time{
       background-image: url("images/product-4.jpg");
       background-size: cover;
+      flex-grow: 1;
 }
 #jars_and_containers{
     background-image: url("images/product-5.jpg");
     background-size: cover;
+    flex-grow: 1;
   }
 #wasabi_and_saki{
       background-image: url("images/product-6.jpg");
       background-size: cover;
+      flex-grow: 2;
 }
 #sippin_on_sunshine{
       background-image: url("images/product-7.jpg");
       background-size: cover;
+      flex-grow: 1;
 }
 footer{
   background-color: #2B2F26;
