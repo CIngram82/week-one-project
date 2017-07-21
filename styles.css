@@ -1,101 +1,117 @@
-body{
+body {
   margin: 0;
 }
-ul{
+
+ul {
   list-style: none;
-padding: 0;
+  padding: 0;
 }
-header{
+
+header {
   padding: 20px;
   background-color: #FFFFFF;
 }
-nav{
+
+nav {
   display: flex;
-align-content: space-around;
+  align-content: space-around;
   height: 50px;
 }
-nav img{
+
+nav img {
   object-fit: scale-down;
 }
-nav ul{
+
+nav ul {
   display: flex;
   justify-content: space-around;
   width: 90%;
   padding: 0 300px;
   text-transform: uppercase;
 }
-a:link{
+
+a:link {
   color: #2B2F26;
 }
-a:hover{
+
+a:hover {
   color: #CD5D67;
 }
-a:active{
+
+a:active {
   color: #968772;
 }
 
-
-main{
+main {
   background-color: #F2F1E8;
   display: flex;
   flex-direction: column;
-align-items: center;
-}
-.image_tiles{
-  width: 100%;
-}
-.image_tiles ul{
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  margin: 5px;
-  height: 300px;
-}
-.image_tiles ul li{
-  margin: 5px;
-  color: #968772;
-}
-.image_tiles ul li p{
-  background-color: #2B2F26;
-}
-#endless_possiblities{
-  background-image: url("images/product-1.jpg");
-  background-size: cover;
-  flex-grow: 3;
+  align-items: center;
 }
 
-#sets{
-    background-image: url("images/product-2.jpg");
-    background-size: cover;
-    flex-grow: 1;
+.image_tiles {
+  width: 100%;
 }
-#textures{
-      background-image: url("images/product-3.jpg");
-      background-size: cover;
-      flex-grow: 1;
+
+.image_tiles ul {
+  display: flex;
+  flex-wrap: wrap;
+align-content: stretch;
+  height: 600px;
 }
-#tea_time{
-      background-image: url("images/product-4.jpg");
-      background-size: cover;
-      flex-grow: 1;
+
+.image_tiles ul li {
+  color: #F2F1E8;
 }
-#jars_and_containers{
-    background-image: url("images/product-5.jpg");
-    background-size: cover;
-    flex-grow: 1;
-  }
-#wasabi_and_saki{
-      background-image: url("images/product-6.jpg");
-      background-size: cover;
-      flex-grow: 2;
+
+.image_tiles ul li p {
+  background-color: #2B2F26;
 }
-#sippin_on_sunshine{
-      background-image: url("images/product-7.jpg");
-      background-size: cover;
-      flex-grow: 1;
+
+#endless_possiblities {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  width: 60%;
 }
-footer{
+
+#sets {
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  width: 20%;
+}
+
+#textures {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  width: 20%;
+}
+
+#tea_time {
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  width: 20%;
+}
+
+#jars_and_containers {
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  width: 20%;
+}
+
+#wasabi_and_saki {
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  width: 40%;
+}
+
+#sippin_on_sunshine {
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  width: 20%;
+}
+
+footer {
   background-color: #2B2F26;
   color: #F2F1E8;
-padding: 20px;
+  padding: 20px;
 }
