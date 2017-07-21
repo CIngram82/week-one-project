@@ -137,3 +137,24 @@ footer {
   color: #F2F1E8;
   padding: 20px;
 }
+
+#birdhouse{
+  float: left;
+  height: 75px;
+  width: 100px;
+}
+
+.page_wide_img{
+  background-image: url("images/background-3.jpg");
+background-size: 100%;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+.page_wide_img p{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 150px 0px;
+}
