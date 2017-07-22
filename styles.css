@@ -8,7 +8,7 @@ ul {
 }
 
 header {
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: #FFFFFF;
   position: sticky;
   top: 0px;
@@ -31,6 +31,7 @@ nav ul {
   width: 90%;
   padding: 0 300px;
   text-transform: uppercase;
+  font-size: 18px;
 }
 
 a:link {
@@ -179,5 +180,10 @@ tr:nth-of-type(even) {
 }
 
 #about_page section {
-  width: 70%;
+  width: 60%;
+  font-size: 18px;
+  line-height: 1.6;
+}
+#about_page section p{
+  margin: 0;
 }
