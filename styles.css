@@ -62,8 +62,8 @@ main {
 
 .image_tiles ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0 5px;
 }
 
 .image_tiles ul li {
@@ -94,42 +94,42 @@ flex-grow: 3;
   background-image: url("images/product-2.jpg");
   background-size: cover;
 height: 350px;
-flex-grow: 1;
+width: 255px;
 }
 
 #textures {
   background-image: url("images/product-3.jpg");
   background-size: cover;
 height: 350px;
-flex-grow: 1;
+width: 255px;
 }
 
 #tea_time {
   background-image: url("images/product-4.jpg");
   background-size: cover;
 height: 250px;
-flex-grow: 1;
+width: 255px;
 }
 
 #jars_and_containers {
   background-image: url("images/product-5.jpg");
   background-size: cover;
 height: 250px;
-flex-grow: 1;
+width: 255px;
 }
 
 #wasabi_and_saki {
   background-image: url("images/product-6.jpg");
   background-size: cover;
 height: 250px;
-flex-grow: 2;
+flex-grow: 1;
 }
 
 #sippin_on_sunshine {
   background-image: url("images/product-7.jpg");
   background-size: cover;
 height: 250px;
-flex-grow: 1;
+width: 255px;
 }
 
 footer {
@@ -140,21 +140,36 @@ footer {
 
 #birdhouse{
   float: left;
-  height: 75px;
+  margin: 0 20px 20px 0;
+  height: 70px;
   width: 100px;
 }
-
+aside img{
+  width: 100px;
+}
+table,td,th{
+  padding: 5px;
+    border-collapse: collapse;
+border: 1px solid #2B2F26;
+}
+tr:nth-of-type(even){
+  background-color: #967343;
+}
 .page_wide_img{
   background-image: url("images/background-3.jpg");
-background-size: 100%;
-  background-position: center;
-  height: 400px;
-  width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
 }
 .page_wide_img p{
   color: white;
   font-size: 100px;
   text-align: center;
   margin: 0;
-  padding: 150px 0px;
+  padding: 100px 0px;
+}
+#about_page section{
+  width: 70%;
 }
