@@ -37,7 +37,7 @@ a:link {
   color: #2B2F26;
 }
 
-a:visited{
+a:visited {
   color: #2B2F26;
 }
 
@@ -45,7 +45,7 @@ a:hover {
   color: #CD5D67;
 }
 
-#active{
+#active {
   color: #968772;
 }
 
@@ -77,59 +77,61 @@ main {
   position: absolute;
   padding: 5px;
   font-size: 20px;
-bottom: 20px;
-left: 20px;
+  bottom: 20px;
+  left: 20px;
 }
-.blank{
+
+.blank {
   width: 10px;
 }
+
 #endless_possiblities {
   background-image: url("images/product-1.jpg");
   background-size: cover;
-height: 350px;
-flex-grow: 3;
+  height: 350px;
+  flex-grow: 3;
 }
 
 #sets {
   background-image: url("images/product-2.jpg");
   background-size: cover;
-height: 350px;
-width: 255px;
+  height: 350px;
+  width: 255px;
 }
 
 #textures {
   background-image: url("images/product-3.jpg");
   background-size: cover;
-height: 350px;
-width: 255px;
+  height: 350px;
+  width: 255px;
 }
 
 #tea_time {
   background-image: url("images/product-4.jpg");
   background-size: cover;
-height: 250px;
-width: 255px;
+  height: 250px;
+  width: 255px;
 }
 
 #jars_and_containers {
   background-image: url("images/product-5.jpg");
   background-size: cover;
-height: 250px;
-width: 255px;
+  height: 250px;
+  width: 255px;
 }
 
 #wasabi_and_saki {
   background-image: url("images/product-6.jpg");
   background-size: cover;
-height: 250px;
-flex-grow: 1;
+  height: 250px;
+  flex-grow: 1;
 }
 
 #sippin_on_sunshine {
   background-image: url("images/product-7.jpg");
   background-size: cover;
-height: 250px;
-width: 255px;
+  height: 250px;
+  width: 255px;
 }
 
 footer {
@@ -138,38 +140,44 @@ footer {
   padding: 20px;
 }
 
-#birdhouse{
+#birdhouse {
   float: left;
   margin: 0 20px 20px 0;
   height: 70px;
   width: 100px;
 }
-aside img{
+
+aside img {
   width: 100px;
 }
-table,td,th{
+
+table, td, th {
   padding: 5px;
-    border-collapse: collapse;
-border: 1px solid #2B2F26;
+  border-collapse: collapse;
+  border: 1px solid #2B2F26;
 }
-tr:nth-of-type(even){
+
+tr:nth-of-type(even) {
   background-color: #967343;
 }
-.page_wide_img{
+
+.page_wide_img {
   background-image: url("images/background-3.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
 }
-.page_wide_img p{
+
+.page_wide_img p {
   color: white;
   font-size: 100px;
   text-align: center;
   margin: 0;
   padding: 100px 0px;
 }
-#about_page section{
+
+#about_page section {
   width: 70%;
 }
