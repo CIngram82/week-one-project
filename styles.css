@@ -56,7 +56,16 @@ main {
   flex-direction: column;
   align-items: center;
 }
-
+h1{
+  font-family: Merriweather;
+  font-size: 4em;
+  font-weight: 400;
+}
+h3{
+  font-family: Merriweather;
+  font-size: 2em;
+  font-weight: 300;
+}
 .image_tiles {
   width: 100%;
   margin-bottom: 10px;
@@ -158,7 +167,7 @@ table, td, th {
 }
 
 tr:nth-of-type(even) {
-  background-color: #967343;
+  background-color: #FFFFFF;
 }
 
 .page_wide_img {
@@ -182,7 +191,17 @@ tr:nth-of-type(even) {
   width: 60%;
   font-size: 18px;
   line-height: 1.6;
+  font-family: Roboto, sans-serif;
 }
 #about_page section p{
   margin: 0;
+}
+
+#newsletter_page{
+background-image: url("images/background-2.jpg");
+background-position: center;
+background-size: cover;
+}
+.form{
+  background-color: #F2F1E8;
 }
