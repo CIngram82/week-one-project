@@ -18,7 +18,7 @@ header {
 nav {
   display: flex;
   align-content: space-around;
-  height: 50px;
+  height: 8vh;
 }
 
 nav img {
@@ -208,11 +208,45 @@ justify-content: center;
 align-content: center;
 }
 .form{
-  background-color: #F2F1E8;
-  width: 60vw;
-height: 50vh;
+  background-color: #FFFFFF;
+  width: 700px;
+height: 400px;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
+}
+.form h2{
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0;
+}
+.form h4{
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+}
+.form input{
+  outline: none;
+  border: none;
+  width: 95%;
+  background-color: inherit;
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px;
+}
+.input_fields input{
+  border-bottom: 2px solid #968772;
+
+}
+.submit_container{
+  width: 200px;
+  background-color: #968772;
+  color: #F2F1E8;
+}
+.submit_container input{
+  color: #F2F1E8;
+}
+.submit_container:hover{
+  background-color: #967343;
 }
