@@ -59,6 +59,7 @@ main {
 
 .image_tiles {
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .image_tiles ul {
@@ -76,62 +77,59 @@ main {
 .image_tiles ul li p {
   background-color: #2B2F26;
   position: absolute;
-  padding: 5px;
-  font-size: 20px;
-  bottom: 20px;
-  left: 20px;
+  padding: 10px;
+  font-size: 24px;
+  bottom: 10px;
+margin: 0px;
 }
 
-.blank {
-  width: 10px;
-}
 
 #endless_possiblities {
   background-image: url("images/product-1.jpg");
   background-size: cover;
-  height: 350px;
+  height: 400px;
   flex-grow: 3;
 }
 
 #sets {
   background-image: url("images/product-2.jpg");
   background-size: cover;
-  height: 350px;
+  height: 400px;
   width: 255px;
 }
 
 #textures {
   background-image: url("images/product-3.jpg");
   background-size: cover;
-  height: 350px;
+  height: 400px;
   width: 255px;
 }
 
 #tea_time {
   background-image: url("images/product-4.jpg");
   background-size: cover;
-  height: 250px;
+  height: 300px;
   width: 255px;
 }
 
 #jars_and_containers {
   background-image: url("images/product-5.jpg");
   background-size: cover;
-  height: 250px;
+  height: 300px;
   width: 255px;
 }
 
 #wasabi_and_saki {
   background-image: url("images/product-6.jpg");
   background-size: cover;
-  height: 250px;
+  height: 300px;
   flex-grow: 1;
 }
 
 #sippin_on_sunshine {
   background-image: url("images/product-7.jpg");
   background-size: cover;
-  height: 250px;
+  height: 300px;
   width: 255px;
 }
 
