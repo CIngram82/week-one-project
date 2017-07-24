@@ -201,7 +201,18 @@ tr:nth-of-type(even) {
 background-image: url("images/background-2.jpg");
 background-position: center;
 background-size: cover;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-content: center;
 }
 .form{
   background-color: #F2F1E8;
+  width: 60vw;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
