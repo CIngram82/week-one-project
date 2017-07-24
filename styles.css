@@ -65,7 +65,7 @@ main {
 .image_tiles ul {
   display: flex;
   justify-content: space-around;
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 
 .image_tiles ul li {
@@ -88,6 +88,7 @@ margin: 0px;
   background-image: url("images/product-1.jpg");
   background-size: cover;
   height: 400px;
+  min-width: 255px;
   flex-grow: 3;
 }
 
