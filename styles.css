@@ -159,13 +159,18 @@ footer {
 aside img {
   width: 100px;
 }
-
+aside{
+  width: 30%;
+}
 table, td, th {
-  padding: 5px;
+  padding: 1em;
   border-collapse: collapse;
   border: 1px solid #2B2F26;
 }
-
+#news_two{
+  border: 1px solid red;
+  width: 60%;
+}
 tr:nth-of-type(even) {
   background-color: #FFFFFF;
 }
@@ -188,7 +193,7 @@ tr:nth-of-type(even) {
 }
 
 #about_page section {
-  width: 60%;
+  width: 70%;
   font-size: 18px;
   line-height: 1.6;
   font-family: Roboto, sans-serif;
@@ -196,6 +201,7 @@ tr:nth-of-type(even) {
 #about_page section p{
   margin: 0;
 }
+
 
 #newsletter_page{
 background-image: url("images/background-2.jpg");
@@ -249,4 +255,9 @@ justify-content: space-around;
 }
 .submit_container:hover{
   background-color: #967343;
+}
+blockquote{
+  border-left: 2px solid #968772;
+  margin: 0;
+  padding: 10px 40px;
 }
