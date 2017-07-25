@@ -250,9 +250,7 @@ justify-content: space-around;
   background-color: #968772;
   color: #F2F1E8;
 }
-.submit_container input{
-  color: #F2F1E8;
-}
+.submit_contain
 .submit_container:hover{
   background-color: #967343;
 }
