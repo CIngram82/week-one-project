@@ -162,6 +162,7 @@ aside img {
   width: 100px;
 }
 aside{
+  margin-top: 50px;
   width: 30%;
 }
 table, td, th {
@@ -169,12 +170,20 @@ table, td, th {
   border-collapse: collapse;
   border: 1px solid #2B2F26;
 }
+table{
+  width: 100%;
+  margin-bottom: 25px;
+}
 #news_two{
-  border: 1px solid red;
-  width: 60%;
+  width: 70%;
+  display: flex;
 }
 tr:nth-of-type(even) {
   background-color: #FFFFFF;
+}
+
+h1:active {
+  color: green;
 }
 
 .page_wide_img {
@@ -184,6 +193,7 @@ tr:nth-of-type(even) {
   height: 300px;
   width: 100%;
   background-attachment: fixed;
+
 }
 
 .page_wide_img p {
@@ -204,12 +214,11 @@ tr:nth-of-type(even) {
   margin: 0;
 }
 
-
 #newsletter_page{
 background-image: url("images/background-2.jpg");
 background-position: center;
 background-size: cover;
-height: 100vh;
+height: 90vh;
 width: 100vw;
 display: flex;
 justify-content: center;
@@ -262,6 +271,8 @@ justify-content: space-around;
   color: #FFFFFF;
 }
 blockquote{
+  font-family: Merriweather, serif;
+  font-weight: 100;
   border-left: 2px solid #968772;
   margin: 0;
   padding: 10px 40px;
