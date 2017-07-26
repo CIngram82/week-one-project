@@ -7,7 +7,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
 a:link {
   color: #2B2F26;
 }
@@ -59,7 +58,7 @@ nav {
 }
 
 nav img {
-  object-fit: scale-down;
+height: 7vh;
 }
 
 nav ul {
@@ -190,12 +189,25 @@ blockquote {
 }
 
 #birdhouse {
-  float: left;
-  margin: 0 20px 20px 0;
+ float: left;
   height: 70px;
   width: 100px;
+  margin: 0 20px 20px 0;
 }
-
+#mover{
+  transition: transform .25s;
+  pointer-events: none;
+}
+.trigger:hover #mover{
+  transform: translate(50px, 50px) rotate(10deg);
+}
+.trigger {
+  background-image: url("images/bent-creek-logo-coral.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 7vh;
+}
 aside img {
   width: 100px;
 }
