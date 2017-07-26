@@ -80,11 +80,16 @@ h3{
 }
 
 .image_tiles ul li {
+  opacity: .5 ;
   color: #F2F1E8;
   position: relative;
   margin: 5px 10px;
+  transition: opacity .25s;
 }
+.image_tiles ul li:hover {
+opacity: 1;
 
+}
 .image_tiles ul li p {
   background-color: #2B2F26;
   position: absolute;
@@ -180,10 +185,6 @@ table{
 }
 tr:nth-of-type(even) {
   background-color: #FFFFFF;
-}
-
-h1:active {
-  color: green;
 }
 
 .page_wide_img {
