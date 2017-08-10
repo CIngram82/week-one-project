@@ -195,7 +195,7 @@ blockquote {
   margin: 0 20px 20px 0;
 }
 #mover{
-  transition: transform .25s;
+    transition: transform .25s;
   pointer-events: none;
 }
 .trigger:hover #mover{
